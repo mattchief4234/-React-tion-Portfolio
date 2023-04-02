@@ -1,0 +1,51 @@
+body {
+    font-family: sans-serif;
+    text-align: center;
+    background-color: azure;
+}
+
+.navbar, .navbar-brand {
+    text-align: center;
+    display: block;
+    width: 100%;
+    background-color: azure;
+}
+
+div.navbar-brand {
+    padding-top: 2em;
+    margin-bottom: 2em;
+}
+
+navbar .navbar-brand > .navbar-item,
+.navbar .navbar-brand .navbar-link {
+    display: inline-block;
+}
+
+main {
+    margin-top: 2em;
+    margin-bottom: 5em;
+    margin-left: 15em;
+    margin-right: 15em;
+}
+
+.my-pic {
+    clip-path: circle();
+    width: 250px;
+}
+
+label {
+    text-align: left;
+}
+
+footer.footer {
+    background-color: rgb(113, 131, 155);
+}
+
+@media only screen and (max-width: 1024px) {
+    main {
+        margin-top: 2em;
+        margin-bottom: 2em;
+        margin-left: 2em;
+        margin-right: 2em;
+    }
+}
